@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-test
+  description: Test Backstage app
+  labels:
+    app.kubernetes.io/name: test-backstage
+    product: cicd
+  annotations:
+    github.com/project-slug: jpilowsk-te/backstage-test
+    backstage.io/techdocs-ref: dir:.
+  tags:
+    - go
+    - backend
+    - gitops
+spec:
+  type: service
+  lifecycle: ci
+  owner: jpilowsk-te
