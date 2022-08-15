@@ -8,7 +8,7 @@ metadata:
     product: cicd
   annotations:
     github.com/project-slug: jpilowsk-te/backstage-test
-    cicd.thousandeyes.com/release-info: true
+    cicd.thousandeyes.com/release-info: value
     backstage.io/techdocs-ref: dir:.
   tags:
     - go
