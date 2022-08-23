@@ -1,20 +1,20 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: backstage-test
-  description: Test Backstage app
+  name: tiphys
+  description: Tiphys - the engine that facilitates "Github Deployment Driven GitOps" at ThousandEyes
   labels:
-    app.kubernetes.io/name: test-backstage
     product: cicd
   annotations:
-    github.com/project-slug: jpilowsk-te/backstage-test
-    cicd.thousandeyes.com/release-info: value
+    github.com/project-slug: thousandeyes/tiphys
+    github.com/team-slug: thousandeyes/engineering-effectiveness
     backstage.io/techdocs-ref: dir:.
+    argocd/app-selector: application-name=tiphys-server
   tags:
     - go
     - backend
     - gitops
 spec:
   type: service
-  lifecycle: ci
-  owner: jpilowsk-te
+  lifecycle: production
+  owner: engineering-effectiveness
