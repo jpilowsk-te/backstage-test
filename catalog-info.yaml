@@ -4,6 +4,7 @@ metadata:
   name: tiphys
   description: Tiphys - the engine that facilitates "Github Deployment Driven GitOps" at ThousandEyes
   labels:
+    app.kubernetes.io/name: tiphys-server
     product: cicd
   annotations:
     github.com/project-slug: thousandeyes/tiphys
