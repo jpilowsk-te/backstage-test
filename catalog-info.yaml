@@ -7,6 +7,7 @@ metadata:
     app.kubernetes.io/name: tiphys-server
     product: cicd
   annotations:
+    cicd.thousandeyes.com/release-info: "true"
     github.com/project-slug: thousandeyes/tiphys
     github.com/team-slug: thousandeyes/engineering-effectiveness
     backstage.io/techdocs-ref: dir:.
