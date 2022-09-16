@@ -8,6 +8,7 @@ metadata:
     product: cicd
   annotations:
     cicd.thousandeyes.com/release-info: "true"
+    roadie-backstage-pull-requests/default-filter: "true"
     github.com/project-slug: thousandeyes/tiphys
     github.com/team-slug: thousandeyes/engineering-effectiveness
     backstage.io/techdocs-ref: dir:.
