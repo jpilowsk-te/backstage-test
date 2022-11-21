@@ -10,7 +10,7 @@ metadata:
     cicd.thousandeyes.com/release-info: "true"
     roadie-backstage-pull-requests/default-filter: "true"
     github.com/project-slug: jpilowsk-te/backstage-test
-    github.com/team-slug: thousandeyes/engineering-effectiveness
+    github.com/team-slug: jpilowsk-te
     backstage.io/techdocs-ref: dir:.
     argocd/app-selector: application-name=tiphys-server
   tags:
